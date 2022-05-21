@@ -1,0 +1,141 @@
+body {
+    background-image: url('lion.jpeg');
+    background-size: cover;
+    background-position-x: center;
+    background-color: black;
+    font-family: monospace;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    color: #202020;
+    text-align: center;
+    font-size: 100px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: -15px;
+
+}
+
+#counter {
+    background: #D2DBEE;
+    border-radius: 15%;
+    box-shadow: 9.91px 9.91px 16px #C1C9DB,
+        -9.91px -9.91px 16px #E3EDFF;
+    padding: 50px 10px 50px 10px;
+    width: 600px;
+    max-width: 90vw;
+    margin: auto;
+    height: auto;
+}
+
+#addbutton {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    line-height: 70px;
+    font-size: larger;
+    align-self: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+
+}
+
+button {
+    color: white;
+    text-align: center;
+    display: grid;
+    margin: auto;
+}
+
+button:hover {
+    width: 220px;
+
+}
+
+#increment-btn {
+
+    background-color: blue;
+
+
+}
+
+#decrement-btn {
+    background-color: red;
+}
+
+#save-btn {
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 20px 10px;
+    width: 200px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: solid red 2px;
+}
+
+td th {
+    border-left: solid red 2px;
+    border-right: solid red 2px;
+}
+
+#greetings {
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+#logentry {
+    text-align: center;
+    width: 500px;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.btns {
+    display: flex;
+    font-size: 30px;
+    margin: 0, 20px;
+}
+
+.btns button {
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 20px;
+    width: 200px;
+    font-weight: bold;
+    margin: auto;
+}
+
+@media all and (max-width:480px) {
+    .btns button {
+        width: 150px;
+    }
+
+}
+
+.people {
+    padding: 30px 0px;
+}
+
+.entire {
+    background-color: #D2DBEE;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
