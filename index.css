@@ -23,12 +23,12 @@ h2 {
 
 #counter {
     background: #D2DBEE;
-    border-radius: 15%;
+    border-radius: 20px;
     box-shadow: 9.91px 9.91px 16px #C1C9DB,
         -9.91px -9.91px 16px #E3EDFF;
     padding: 50px 10px 50px 10px;
     width: 600px;
-    max-width: 90vw;
+    max-width: 88vw;
     margin: auto;
     height: auto;
 }
