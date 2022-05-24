@@ -42,8 +42,6 @@ h2 {
     font-size: larger;
     align-self: center;
     text-align: center;
-    width: 70px;
-    height: 70px;
     margin: auto;
 
 }
@@ -55,8 +53,8 @@ button {
     margin: auto;
 }
 
-button:hover {
-    width: 220px;
+button:active {
+    font-size: 20px;
 
 }
 
